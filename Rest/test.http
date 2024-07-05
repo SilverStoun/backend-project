@@ -1,0 +1,11 @@
+### Get users
+GET http://localhost:8080/users
+
+### Add user
+POST http://localhost:8080/users
+
+{
+    "id": "usr_2",
+    "username": "testov",
+    "email": "testov@gmail.com"
+}
